@@ -1,4 +1,4 @@
-package ru.GeekBrains.mycalculator;
+package ru.geekbrains.calculator;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("ru.GeekBrains.mycalculator", appContext.getPackageName());
+        assertEquals("ru.geekbrains.calculator", appContext.getPackageName());
     }
 }
